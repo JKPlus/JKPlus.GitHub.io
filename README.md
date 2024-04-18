@@ -1,3 +1,3 @@
 # Jedi Knight Plus
 
-Website for Jedi Knight Plus Mod
+Main website for Jedi Knight Plus Mod _(Under Development)_
