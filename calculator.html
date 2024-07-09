@@ -220,7 +220,7 @@
 	</div>
 	<!-- Section -->
 	<div class="title">
-      <span class="cvar">jk_altDimension: <small>(Also applies for jk_altDimensionSpawn)</small></span>
+      <span class="cvar">jk_altDimension:</span>
 	  <span class="cvar_edit">
 		  <input id="altdimension" class="value" value="0" type="text">
 		  <input alt="altdimension" class="select-all" value="All" type="button">
@@ -236,7 +236,7 @@
 		<label class="bitbox"><input class="box" name="altdimension" num="7" type="checkbox"> Full Force</label>
 		<label class="bitbox"><input class="box" name="altdimension" num="5" type="checkbox"> Insta Kill</label>
 		<label class="bitbox"><input class="box" name="altdimension" num="6" type="checkbox"> Cheats Mode</label>
-		<label class="bitbox"><input class="box" name="altdimension" num="8" type="checkbox"> Private Room</label>
+		<label class="bitbox"><input class="box" name="altdimension" num="8" type="checkbox" needs="0"> Private Room</label>
     </div>
 	<!-- Section -->
 	<div class="title">
@@ -259,6 +259,26 @@
     </div>
 	<!-- Section -->
 	<div class="title">
+      <span class="cvar">jk_altDimensionSpawn: <small>(Also applies for jk_altDimensionNoScore)</small></span>
+	  <span class="cvar_edit">
+		  <input id="altdimensionspawn" class="value" value="0" type="text">
+		  <input alt="altdimensionspawn" class="select-all" value="All" type="button">
+		  <input alt="altdimensionspawn" class="select-none" value="None" type="button">
+	  </span>
+	</div>
+    <div class="bitboxes large">
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="0" type="checkbox"> Normal</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="1" type="checkbox"> Private Duel</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="2" type="checkbox"> Guns Arena</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="3" type="checkbox"> Race Defrag</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="4" type="checkbox"> Saber Only</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="7" type="checkbox"> Full Force</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="5" type="checkbox"> Insta Kill</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="6" type="checkbox"> Cheats Mode</label>
+		<label class="bitbox"><input class="box" name="altdimensionspawn" num="8" type="checkbox"> Private Room</label>
+    </div>
+	<!-- Section -->
+	<div class="title">
       <span class="cvar">jk_playerTweaks:</span>
 	  <span class="cvar_edit">
 		  <input id="playertweaks" class="value" value="0" type="text">
@@ -275,6 +295,7 @@
 		<label class="bitbox"><input class="box" name="playertweaks" num="5" type="checkbox"> Force Push Resist</label>
 		<label class="bitbox"><input class="box" name="playertweaks" num="6" type="checkbox"> Dual Saber Moves</label>
 		<label class="bitbox"><input class="box" name="playertweaks" num="7" type="checkbox"> Ghost Sabers</label>
+		<label class="bitbox"><input class="box" name="playertweaks" num="8" type="checkbox"> Chair Force Usable</label>
     </div>
 	<!-- Section -->
 	<div class="title">
@@ -302,6 +323,27 @@
 		<label class="bitbox"><input class="box" name="mapfixes" num="13" type="checkbox"> SP Door Use Button</label>
 		<label class="bitbox"><input class="box" name="mapfixes" num="14" type="checkbox"> SP Door Trigger Spawn</label>
 		<label class="bitbox"><input class="box" name="mapfixes" num="15" type="checkbox"> Spectator Door Stuck</label>
+    </div>
+	<!-- Section -->
+	<div class="title">
+      <span class="cvar">jk_spawnActivateSaber:</span>
+	  <span class="cvar_edit">
+		  <input id="spawnactivatesaber" class="value" value="0" type="text">
+		  <input alt="spawnactivatesaber" class="select-all" value="All" type="button">
+		  <input alt="spawnactivatesaber" class="select-none" value="None" type="button">
+	  </span>
+	</div>
+    <div class="bitboxes large">
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="0" type="checkbox"> Free For All</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="1" type="checkbox"> Holocron</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="2" type="checkbox"> Jedi Master</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="3" type="checkbox"> Duel Tournament</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="4" type="checkbox"> Single Player</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="5" type="checkbox"> Team FFA</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="6" type="checkbox"> Saga</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="7" type="checkbox"> Capture The Flag</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="8" type="checkbox"> Capture The Ysalamiri</label>
+		<label class="bitbox"><input class="box" name="spawnactivatesaber" num="9" type="checkbox"> Private Duel</label>
     </div>
 	<!-- Section -->
 	<div class="title">
@@ -353,7 +395,7 @@
     </div>
 	<!-- Section -->
 	<div class="title">
-      <span class="cvar">g_weaponDisable:</span>
+      <span class="cvar">g_weaponDisable: <small>(Also applies for g_duelWeaponDisable)</small></span>
 	  <span class="cvar_edit">
 		  <input id="weapondisable" class="value" value="0" type="text">
 		  <input alt="weapondisable" class="select-all" value="All" type="button">
